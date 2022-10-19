@@ -1,0 +1,6 @@
+1.Setup wires
+2.R1-skolas tiīkls(dhcp client, NAT, adrese)
+3.WIFI(ap bridge(ja paāraida), station(ja saņem), lai otrs rūteris saņemtu jājiet uz Quickset un CPE.
+3.1 R1, R2, R3, R4 OSPF(pie networks -- add --visas adreses(piem. 10.1.23.0/30) un backbone)(obligati jabut 0 pirms "/", lai attiektos uz visu tīklu)(skolas tiklam NAV jātaisa)
+3.2 Routes(ejot uz atakaļu dst.adrese --> 0.0.0.0/0 un gateway adrese kad pieder tam rūterim pie kura tu ej(uz ATPAKAĻU, prom no skolas datora adreses)
+4. Rūteriem kuri savienoti pie PC vajadzīgs DHCP serveris
